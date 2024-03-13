@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+.flex__column {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.cards {
+  flex: 3;
+}
+.total {
+  flex: 1;
+}

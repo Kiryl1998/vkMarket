@@ -1,0 +1,29 @@
+.cart_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cart_item_thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.wrap_img {
+  width: 50%;
+  max-height: 300px;
+}
+.cart_item_details {
+  width: 30%;
+}
+.quantity {
+  display: flex;
+  gap: 20px;
+}
+.button {
+  border: 1px solid black;
+  font-size: 24px;
+  background-color: transparent;
+}
+.cross {
+}
